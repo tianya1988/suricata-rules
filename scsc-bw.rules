@@ -1,1 +1,2 @@
-pass ip 172.16.0.53 any -> any any (msg:"IP黑名单"; priority:2; sid:96000001; rev:1; metadata:matchType ti-scsc-ip, created_at 2020_06_29, updated_at 2021_02_22;)
+alert ip 1.1.1.1 any -> any any (msg:"IP黑名单"; priority:2; sid:96000004; rev:1; metadata:matchType ti-scsc-ip, created_at 2020_06_29, updated_at 2021_03_16;)
+pass ip 172.16.0.53 any -> any any (msg:"IP黑名单"; priority:2; sid:96000005; rev:1; metadata:matchType ti-scsc-ip, created_at 2020_06_29, updated_at 2021_03_16;)
